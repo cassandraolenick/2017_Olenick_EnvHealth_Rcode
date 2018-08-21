@@ -5,7 +5,7 @@
 # using a Bayesian hierarchical approach"  
 # (Environmental Health, 2017, DOI: 10.1186/s12940-017-0244-2)
 
-#Requires example dataset, ENHE-D-16-00179-R1_Additional_Files_Example.Data.csv
+#Requires example dataset, Example.Data.csv
 
 library(stats)
 library(tlnise)
@@ -14,7 +14,7 @@ options(digits=6, scipen=6)
 
 
 #call dataset with ZCTA-specific parameters from simulated Stage 1 analyses
-data <- read.csv("~/Desktop/ENHE-D-16-00179-R1_Additional_Files_Example.Data.csv")
+data <- read.csv("~/Example.Data.csv")
 
 ###################
 #### Estimating overall associations between ozone and respiratory disease for each city  ####
